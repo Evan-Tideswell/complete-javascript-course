@@ -45,7 +45,7 @@ year = 1988;
 console.log(typeof year);
 
 console.log(typeof null);
-*/
+
 
 let age = 30;
 age = 31;
@@ -59,3 +59,22 @@ job = "engineer";
 
 lastName = "Tideswell";
 console.log(lastName);
+*/
+
+const now = 2037;
+const ageEvan = now - 1988;
+const ageAlicia = now - 1991;
+console.log(ageEvan, ageAlicia);
+
+console.log(ageEvan * 2, ageEvan / 10, 2 ** 3);
+// 2 ** 3 mean 2 to the power of 3 = 2 * 2 * 2
+
+const firstName = "Evan";
+const lastName = "Tideswell";
+console.log(firstName + " " + lastName);
+
+let x = 10 + 5; // 15
+x += 10; // x = x + 10 = 25
+x *= 4; // x = x * 4 = 100
+x++;
+console.log(x);
