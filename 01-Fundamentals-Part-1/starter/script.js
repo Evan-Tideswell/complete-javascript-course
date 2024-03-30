@@ -61,20 +61,45 @@ lastName = "Tideswell";
 console.log(lastName);
 */
 
-const now = 2037;
-const ageEvan = now - 1988;
-const ageAlicia = now - 1991;
-console.log(ageEvan, ageAlicia);
+// const now = 2037;
+// const ageEvan = now - 1988;
+// const ageAlicia = now - 1991;
+// console.log(ageEvan, ageAlicia);
 
-console.log(ageEvan * 2, ageEvan / 10, 2 ** 3);
-// 2 ** 3 mean 2 to the power of 3 = 2 * 2 * 2
+// console.log(ageEvan * 2, ageEvan / 10, 2 ** 3);
+// // 2 ** 3 mean 2 to the power of 3 = 2 * 2 * 2
+
+// const firstName = "Evan";
+// const lastName = "Tideswell";
+// console.log(firstName + " " + lastName);
+
+// let x = 10 + 5; // 15
+// x += 10; // x = x + 10 = 25
+// x *= 4; // x = x * 4 = 100
+// x++; // x = x + 1
+// console.log(x);
+
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// const massMark = 95;
+// const heightMark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+
+// const BMIMark = massMark / heightMark ** 2;
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// const MarkHigherBMI = BMIMark > BMIJohn;
+
+// console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
 const firstName = "Evan";
-const lastName = "Tideswell";
-console.log(firstName + " " + lastName);
+const job = "IT Engineer";
+const birthYear = 1988;
+const year = 2024;
 
-let x = 10 + 5; // 15
-x += 10; // x = x + 10 = 25
-x *= 4; // x = x * 4 = 100
-x++; // x = x + 1
-console.log(x);
+const evan =
+  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+console.log(evan);
