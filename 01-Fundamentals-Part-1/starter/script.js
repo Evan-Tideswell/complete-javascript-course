@@ -103,3 +103,12 @@ const year = 2024;
 const evan =
   "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
 console.log(evan);
+
+const evanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+console.log(evanNew);
+
+console.log(`Just a regular string...`);
+
+console.log(`String
+multiple
+lines`);
