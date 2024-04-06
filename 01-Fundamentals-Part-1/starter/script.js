@@ -95,20 +95,29 @@ console.log(lastName);
 
 // console.log(BMIMark, BMIJohn, MarkHigherBMI);
 
-const firstName = "Evan";
-const job = "IT Engineer";
-const birthYear = 1988;
-const year = 2024;
+// const firstName = "Evan";
+// const job = "IT Engineer";
+// const birthYear = 1988;
+// const year = 2024;
 
-const evan =
-  "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
-console.log(evan);
+// const evan =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " year old " + job + "!";
+// console.log(evan);
 
-const evanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(evanNew);
+// const evanNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(evanNew);
 
-console.log(`Just a regular string...`);
+// console.log(`Just a regular string...`);
 
-console.log(`String
-multiple
-lines`);
+// console.log(`String
+// multiple
+// lines`);
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving license 🚗");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`Sarah is too young. Wait another ${yearsLeft} years :)`);
+}
