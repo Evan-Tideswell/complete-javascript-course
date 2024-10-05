@@ -174,6 +174,7 @@ console.log(lastName);
 // n = n - 1; // converts to number
 // console.log(n);
 
+//Truthy and False Values
 // 5 falsy values: 0, '', undefined, null, NaN
 
 console.log(Boolean(0));
@@ -195,3 +196,5 @@ if (height) {
 } else {
   console.log("Height is UNDEFINED");
 }
+
+//Equality Operators: ==vs. ===
